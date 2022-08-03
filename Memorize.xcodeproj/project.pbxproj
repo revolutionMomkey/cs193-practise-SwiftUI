@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D3638F0C2854745800B77A24 /* MemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3638F0B2854745800B77A24 /* MemoryGame.swift */; };
+		D3638F0E2854795200B77A24 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3638F0D2854795200B77A24 /* EmojiMemoryGame.swift */; };
+		D3D7278D288CC37A00B7F101 /* AspectVGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D7278C288CC37A00B7F101 /* AspectVGrid.swift */; };
+		D3D7278F288CE2E700B7F101 /* Pie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D7278E288CE2E700B7F101 /* Pie.swift */; };
+		D3D72791288E44DB00B7F101 /* Cardify.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D72790288E44DB00B7F101 /* Cardify.swift */; };
 		D3EAB640284F3196003025A6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAB63F284F3196003025A6 /* AppDelegate.swift */; };
 		D3EAB642284F3196003025A6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAB641284F3196003025A6 /* SceneDelegate.swift */; };
-		D3EAB644284F3196003025A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAB643284F3196003025A6 /* ContentView.swift */; };
+		D3EAB644284F3196003025A6 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3EAB643284F3196003025A6 /* EmojiMemoryGameView.swift */; };
 		D3EAB646284F3198003025A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EAB645284F3198003025A6 /* Assets.xcassets */; };
 		D3EAB649284F3198003025A6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3EAB648284F3198003025A6 /* Preview Assets.xcassets */; };
 		D3EAB64C284F3198003025A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3EAB64A284F3198003025A6 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D3638F0B2854745800B77A24 /* MemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryGame.swift; sourceTree = "<group>"; };
+		D3638F0D2854795200B77A24 /* EmojiMemoryGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGame.swift; sourceTree = "<group>"; };
+		D3D7278C288CC37A00B7F101 /* AspectVGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AspectVGrid.swift; sourceTree = "<group>"; };
+		D3D7278E288CE2E700B7F101 /* Pie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pie.swift; sourceTree = "<group>"; };
+		D3D72790288E44DB00B7F101 /* Cardify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cardify.swift; sourceTree = "<group>"; };
 		D3EAB63C284F3196003025A6 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3EAB63F284F3196003025A6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D3EAB641284F3196003025A6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D3EAB643284F3196003025A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D3EAB643284F3196003025A6 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; usesTabs = 0; };
 		D3EAB645284F3198003025A6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D3EAB648284F3198003025A6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D3EAB64B284F3198003025A6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,7 +68,12 @@
 			children = (
 				D3EAB63F284F3196003025A6 /* AppDelegate.swift */,
 				D3EAB641284F3196003025A6 /* SceneDelegate.swift */,
-				D3EAB643284F3196003025A6 /* ContentView.swift */,
+				D3EAB643284F3196003025A6 /* EmojiMemoryGameView.swift */,
+				D3D72790288E44DB00B7F101 /* Cardify.swift */,
+				D3D7278E288CE2E700B7F101 /* Pie.swift */,
+				D3D7278C288CC37A00B7F101 /* AspectVGrid.swift */,
+				D3638F0B2854745800B77A24 /* MemoryGame.swift */,
+				D3638F0D2854795200B77A24 /* EmojiMemoryGame.swift */,
 				D3EAB645284F3198003025A6 /* Assets.xcassets */,
 				D3EAB64A284F3198003025A6 /* LaunchScreen.storyboard */,
 				D3EAB64D284F3198003025A6 /* Info.plist */,
@@ -148,7 +163,12 @@
 			files = (
 				D3EAB640284F3196003025A6 /* AppDelegate.swift in Sources */,
 				D3EAB642284F3196003025A6 /* SceneDelegate.swift in Sources */,
-				D3EAB644284F3196003025A6 /* ContentView.swift in Sources */,
+				D3D72791288E44DB00B7F101 /* Cardify.swift in Sources */,
+				D3D7278D288CC37A00B7F101 /* AspectVGrid.swift in Sources */,
+				D3638F0C2854745800B77A24 /* MemoryGame.swift in Sources */,
+				D3D7278F288CE2E700B7F101 /* Pie.swift in Sources */,
+				D3EAB644284F3196003025A6 /* EmojiMemoryGameView.swift in Sources */,
+				D3638F0E2854795200B77A24 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +236,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +290,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -296,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = personal.do.edu.stanford.cs193.Memorize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -316,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = personal.do.edu.stanford.cs193.Memorize;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
